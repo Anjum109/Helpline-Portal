@@ -1,0 +1,10 @@
+.helpline__content {
+    background-color: rgba(208, 227, 233, 0.353);
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.helpline__contents {
+    margin-top: 0;
+}

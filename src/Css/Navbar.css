@@ -1,0 +1,92 @@
+.hHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: #fff;
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.hHeader__logo>img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.hHeader__icons {
+    display: flex;
+    margin-right: 20px;
+}
+
+.hHeader__icon>.MuiSvgIcon-root {
+    color: #384b9a;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.hHeader__icon>.MuiSvgIcon-root:hover {
+    color: #061a6b;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+.hHeader__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hHeader__input>input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+.hHeader__input>.MuiSvgIcon-root {
+    color: #384b9a;
+}
+
+.hHeader__Rem {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.hHeader__Rem>.hHeader__avatar {
+    cursor: pointer;
+}
+
+.hHeader__Rem>.MuiSvgIcon-root {
+    font-size: xx-large;
+    color: #384b9a;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.hHeader__Rem>.MuiSvgIcon-root:hover {
+    color: #061a6b;
+
+}
+
+.hHeader__Rem>.MuiButton-root:hover {
+    color: #061a6b;
+    background-color: lightblue;
+
+
+}
+
+.hHeader__Rem>.MuiButton-root {
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+    background-color: #061a6b;
+    border-radius: 20px;
+    font-weight: 700;
+}

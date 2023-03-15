@@ -1,0 +1,6 @@
+.widget {
+    flex: 0.2;
+    text-align: center;
+    color: gray;
+    font: bold;
+}

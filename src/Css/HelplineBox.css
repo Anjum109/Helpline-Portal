@@ -1,0 +1,35 @@
+.helplineBox {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: 1px solid rgba(219, 231, 235, 0.696);
+    background-color: #f8f8fb;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.helplineBox:hover {
+    border: 1px solid rgba(219, 231, 235, 0.973);
+}
+
+.helplineBox__info {
+    display: flex;
+    align-items: center;
+}
+
+.helplineBox__info>h5 {
+    color: gray;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.helplineBox__question {
+    display: flex;
+    margin-top: 8px;
+}
+
+.helplineBox__question>p {
+    font-weight: bold;
+    font-size: large;
+    color: gray;
+}
